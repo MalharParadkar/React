@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    font-family: 'Poppins','sans-serif';
+}
+.welcome-section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-section-text{
+    color: #ffb434;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-shadow: #ffb434 0 0 10px,
+    #ffb434 0 0 20px,
+    #ffb434 0 0 30px;
+    letter-spacing: 1rem;
+    animation: neon-glow 1s infinite linear;
+}
+
+@keyframes neon-glow {
+    0% {
+        text-shadow: #ffb434 0 0 10px,
+        #ffb434 0 0 20px,
+        #ffb434 0 0 30px;
+    }
+    50% {
+        text-shadow: #ffb434 0 0 20px,
+        #ffb434 0 0 30px,
+        #ffb434 0 0 40px;
+    }
+    100% {
+        text-shadow: #ffb434 0 0 10px,
+        #ffb434 0 0 20px,
+        #ffb434 0 0 30px;
+    }
+}
